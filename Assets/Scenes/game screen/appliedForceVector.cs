@@ -17,10 +17,10 @@ public class appliedForceVector : MonoBehaviour
     //}
     void OnMouseDown()
     {
-        GetComponent<Rigidbody>().AddForce(-transform.right * 500);
-        GetComponent<Rigidbody>().useGravity = true;
+        //GetComponent<Rigidbody>().AddForce(-transform.right * 500);
+        //GetComponent<Rigidbody>().useGravity = true;
 
-        //GetComponent<Rigidbody2D>().AddForce(-transform.right * 500);
-        //GetComponent<Rigidbody2D>().useGravity = true;
+        GetComponent<Rigidbody2D>().AddForce(-transform.right * 500);
+        GetComponent<Rigidbody2D>().gravityScale = 1;
     }
 }
