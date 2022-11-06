@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 140658850}
   - component: {fileID: 140658849}
   - component: {fileID: 140658848}
+  - component: {fileID: 140658854}
   m_Layer: 0
   m_Name: fake panda
   m_TagString: Untagged
@@ -188,7 +189,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140658847}
   serializedVersion: 2
-  m_Mass: 30
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -274,6 +275,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &140658854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140658847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b88719caa67454862a487490dcde6004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yourButton: {fileID: 0}
+  com: {x: 100, y: 0, z: 0}
+  rb: {fileID: 0}
 --- !u!1 &232274934
 GameObject:
   m_ObjectHideFlags: 0
