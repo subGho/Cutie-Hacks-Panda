@@ -20,7 +20,7 @@ public class appliedForceVector : MonoBehaviour
         GetComponent<Rigidbody>().AddForce(-transform.right * 500);
         GetComponent<Rigidbody>().useGravity = true;
 
-        GetComponent<Rigidbody2D>().AddForce(-transform.right * 500);
+        //GetComponent<Rigidbody2D>().AddForce(-transform.right * 500);
         //GetComponent<Rigidbody2D>().useGravity = true;
     }
 }
